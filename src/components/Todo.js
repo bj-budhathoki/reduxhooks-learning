@@ -10,6 +10,7 @@ const Todo = () => {
     <ul className="todo-list" style={{ listStyleType: "none" }}>
       {items.map(todo => (
         <li key={todo.id}>
+          {todo.name}
           <span
             className="delete-button"
             style={{ color: "red", marginLeft: "1.2rem" }}

@@ -1,4 +1,4 @@
-import { FETCH_MOVIE_REQUEST, FETCH_MOVIE_SUCCESS } from "./constants/types";
+import { FETCH_MOVIE_REQUEST, FETCH_MOVIE_SUCCESS } from "../constants/types";
 const initialState = {
   fetching: false,
   movies: null
